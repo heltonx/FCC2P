@@ -1,4 +1,4 @@
-//Franco Francisco e Chicão II, o Programa
+//Franco Francisco e ChicÃ£o II, o Programa
 //this programa has saveral funcions. A little legend with three heads. Probably I'm mixing C and C++
 
 #include <iostream>
@@ -8,7 +8,7 @@ using namespace std;
 
 
 
-int showMemory(){ //esse primeiro programa pretende mostrar o endereço de memoria de uma variavel
+int showMemory(){ //This first funciton intends to show the memory addres of a given variable
 	
 int v; //variavel de escopo local
 
