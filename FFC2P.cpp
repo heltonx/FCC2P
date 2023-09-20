@@ -14,6 +14,7 @@ int v; //variavel de escopo local
 
 	printf("digite a variavel: ");
 	scanf("%d",&v);
+	cout << "valor da variavel: ";
 	printf("%d",v);
 
 }
