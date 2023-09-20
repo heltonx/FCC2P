@@ -17,6 +17,7 @@ int v; //variavel de escopo local
 	cout << "valor da variavel: ";
 	printf("%d",v);
 	cout << "\nposicao da variavel na memoria: ";
+	printf("%d",&v);
 
 }
 
