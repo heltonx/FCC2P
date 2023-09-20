@@ -6,8 +6,6 @@
 
 using namespace std;
 
-
-
 int showMemory(){ //This first funciton intends to show the memory addres of a given variable
 	
 int v; //variavel de escopo local
