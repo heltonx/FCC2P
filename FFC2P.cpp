@@ -16,7 +16,6 @@ int v; //variavel de escopo local
 	printf("%d",v);
 	cout << "\nposicao da variavel na memoria: ";
 	printf("%d",&v);
-
 }
 
 int main(){
