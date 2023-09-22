@@ -27,3 +27,4 @@ int otroscopio(){
 	};
 	struct dados pessoa;
 	printf("type face: ");
+	scanf("%s",&pessoa.face);
