@@ -3,22 +3,4 @@
 
 #include <iostream>
 #include<stdio.h>
-
-using namespace std;
-
-int showMemory(){ //This first funciton intends to show the memory addres of a given variable
-	
-int v; //variavel de escopo local
-
-	printf("digite a variavel: ");
-	scanf("%d",&v);
-	cout << "valor da variavel: ";
-	printf("%d",v);
-	cout << "\nposicao da variavel na memoria: ";
-	printf("%d",&v);
-}
-
-int main(){
-	showMemory();
-
-}
+#include<stdlib.h>
