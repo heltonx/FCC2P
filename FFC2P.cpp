@@ -17,3 +17,5 @@ int v; //variavel de escopo local
 	cout << "\nposicao da variavel na memoria: ";
 	printf("%d",&v);
 }
+
+int otroscopio(){
