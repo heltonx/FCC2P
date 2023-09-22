@@ -25,3 +25,5 @@ int otroscopio(){
 		string persona;
 		string style;
 	};
+	struct dados pessoa;
+	printf("type face: ");
