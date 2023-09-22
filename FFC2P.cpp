@@ -24,3 +24,4 @@ int otroscopio(){
 		string body;
 		string persona;
 		string style;
+	};
