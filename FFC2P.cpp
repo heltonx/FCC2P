@@ -8,6 +8,7 @@
 using namespace std;
 
 int showMemory(){ //This first funciton intends to show the memory addres of a given variable
+	
 int v; //variavel de escopo local
 
 	printf("digite a variavel: ");
@@ -19,12 +20,43 @@ int v; //variavel de escopo local
 }
 
 int otroscopio(){
+	
 	struct dados{
 		char face[10];
 		string body;
 		string persona;
 		string style;
 	};
+	
 	struct dados pessoa;
+	
 	printf("type face: ");
 	scanf("%s",&pessoa.face);
+	printf("type body: ");
+	scanf("%s",&pessoa.body);
+	printf("type persona: ");
+	scanf("%s",&pessoa.persona);
+	printf("type clothing/style: ");
+	scanf("%s",&pessoa.style);
+	
+	printf("a pessoa tem a face %s",pessoa.face);
+}
+
+int main(){
+	int choice;
+	
+	printf(" Memory position - option 1\n");
+	printf(" Otroscopio - option 2\n");
+	printf("Enter your choice: ");
+	
+	
+	scanf("%d",&choice);
+	
+	switch(choice){
+	case 1:showMemory();break;
+	case 2: otroscopio();break;
+	default: printf("Invalid input \n");
+	}
+	
+
+}
