@@ -20,3 +20,4 @@ int v; //variavel de escopo local
 
 int otroscopio(){
 	struct dados{
+		char face[10];
