@@ -23,3 +23,4 @@ int otroscopio(){
 		char face[10];
 		string body;
 		string persona;
+		string style;
