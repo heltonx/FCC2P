@@ -5,7 +5,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-using namespace std
+using namespace std ;
 
 int showMemory(){ //This first funciton intends to show the memory addres of a given variable
 	
