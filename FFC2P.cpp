@@ -49,7 +49,6 @@ int main(){
 	printf(" Otroscopio - option 2\n");
 	printf("Enter your choice: ");
 	
-	
 	scanf("%d",&choice);
 	
 	switch(choice){
