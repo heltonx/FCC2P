@@ -53,7 +53,7 @@ int main(){
 	
 	switch(choice){
 	case 1:showMemory();break;
-	case 2: otroscopio();break;
+	case 2: otroscopio();break; //tool of human analysis
 	default: printf("Invalid input \n");
 	}
 	
