@@ -58,5 +58,4 @@ int main(){
 	default: printf("Invalid input \n");
 	}
 	
-
 }
