@@ -1,4 +1,4 @@
-//Franco Francisco e Chicão II, o Programa
+//Franco Francisco e Chicão II (pseudo-frankstein), o Programa
 //this programa has saveral funcions. A little legend with three heads. Probably I'm mixing C and C++
 
 #include <iostream>
