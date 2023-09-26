@@ -1,4 +1,4 @@
-//Franco Francisco e Chicão II (a frankstein with three heads), o Programa
+//Franco Francisco e Chicão II, o Programa
 //this programa has saveral funcions. A little legend with three heads. Probably I'm mixing C and C++
 
 #include <iostream>
@@ -42,19 +42,55 @@ int otroscopio(){
 	printf("a pessoa tem a face %s",pessoa.face);
 }
 
+
+int calculator ( ) { //na proxima ver como colocar a funcao calculadora em outro arquivo, como se fosse um modulo
+	
+	int choice; 
+	int num1; 
+	int num2 ;
+	void add(int a, int b);
+	
+	printf("Enter number1: ");
+	scanf("%d", &num1);
+	
+	printf("Enter number2: ");
+	scanf("%d", &num2);
+	
+	
+	printf ( " ADD - option 1\n" ) ;
+	printf ( "Enter your choice: " ) ;
+	scanf ( "%d" , &choice ) ;
+	
+	switch ( choice ) {
+		case 1 : add ( num1, num2 ) ; break ; 
+		default : printf ( "Invalid input \n" ) ;
+	
+}
+
+}
+
+void add ( int a , int b ) {
+	
+	printf ( "\nResult : %d" , a + b ) ;
+}
+
 int main(){
+	
 	int choice;
+
 	
-	printf(" Memory position - option 1\n");
-	printf(" Otroscopio - option 2\n");
-	printf("Enter your choice: ");
+	printf ( " Memory position - option 1\n" ) ;
+	printf ( " Otroscopio - option 2\n" ) ;
+	printf ( " Calculator - option 3\n" ) ;
+	printf ( "Enter your choice: " ) ;
 	
-	scanf("%d",&choice);
+	scanf ( "%d" , &choice ) ;
 	
-	switch(choice){
-	case 1:showMemory();break;
-	case 2: otroscopio();break; //tool of human analysis
-	default: printf("Invalid input \n");
+	switch ( choice ) {
+	case 1 : showMemory ( ) ; break ; 
+	case 2 : otroscopio ( ) ; break ; //tool of human analysis
+	case 3 : calculator ( ) ; break ;
+	default : printf ( "Invalid input \n" ) ;
 	}
 	
 }
