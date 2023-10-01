@@ -69,7 +69,6 @@ int bubblesort () { //tks professor @aied
 	return 0 ;
 }
 
-
 int pointers( ) {
 	
 	int x , *p ;
@@ -80,7 +79,6 @@ int pointers( ) {
 	p = &x ;
 	
 	cout << "\n\nLogo apos, foi chumbado um valor para x, e o ponteiro, \nsem o asterisco, recebe o endereco de x, representado por e comercial ( &x ).";
-	
 	
 	cout << "\n\nPonteiro ( *p ) tem o valor : ";
 	printf( "%d" , * p );
@@ -94,15 +92,12 @@ int pointers( ) {
 	
 	cout << "\n\nO endereco de ( x ) eh : ";
 	printf( "%d" , p );
-
 }
-
 
 int main(){
 	
 	int choice;
 
-	
 	printf ( " Memory position - option 1\n" ) ;
 	printf ( " Otroscopio - option 2\n" ) ;
 	printf ( " Calculator - option 3\n" ) ;
@@ -123,4 +118,3 @@ int main(){
 	
 	return 0;
 }
-
