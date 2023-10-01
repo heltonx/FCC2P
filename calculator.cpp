@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-
 //CALCULADORA, TIRADA DE https://www.youtube.com/watch?v=ABDPgCf8-OU&list=WL&index=1&t=1s&ab_channel=tutor_SL
+// C PURO
 
 void add(int a, int b){
 	printf("\nResult : %d", a+b);
@@ -23,7 +23,6 @@ void divide(int a, int b){
 	}
 
 }
-
 
 int calculator(){
 	
@@ -52,7 +51,4 @@ int calculator(){
 		default:printf("Invalid Input!\n");		
 	}
 	
-	
 }
-
-
