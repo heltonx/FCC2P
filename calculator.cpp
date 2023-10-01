@@ -24,31 +24,30 @@ void divide(int a, int b){
 
 }
 
-int calculator(){
+int calculator( ) {
 	
 	int num1;
 	int num2;
 	int choice;
 	
-	printf("Enter number1: ");
-	scanf("%d", &num1);
+	printf ( "Enter number1: " ) ;
+	scanf ( "%d" , &num1 ) ;
 	
-	printf("Enter number2: ");
-	scanf("%d", &num2);
+	printf ( "Enter number2: " ) ;
+	scanf ( "%d" , &num2 ) ;
 	
-	printf("/n Add - 1\n");
-	printf("Substract - 2");
-	printf("Multiply - 3");
-	printf("Divide - 4");
-	printf("Enter your choice: ");
-	scanf("%d",&choice);
+	printf ( "/n Add - 1\n" ) ;
+	printf ( "Substract - 2" ) ;
+	printf ( "Multiply - 3" ) ;
+	printf ( "Divide - 4" ) ;
+	printf ("Enter your choice: ");
+	scanf ( "%d" , &choice ) ;
 	
-	switch(choice){
-		case 1:add(num1,num2);break;
-		case 2:substract(num1,num2);break;
-		case 3:mult(num1,num2);break;
-		case 4:divide(num1,num2);break;
-		default:printf("Invalid Input!\n");		
+	switch ( choice ) {
+		case 1:add (num1 , num2 ) ; break ;
+		case 2:substract ( num1 , num2 ) ; break ;
+		case 3:mult (num1 , num2 ) ; break ;
+		case 4:divide ( num1 , num2 ) ; break ;
+		default:printf ( "Invalid Input!\n" ) ;		
 	}
-	
 }
