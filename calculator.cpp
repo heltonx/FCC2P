@@ -16,10 +16,10 @@ void mult(int a, int b){
 }
 
 void divide(int a, int b){
-	if(b==0){
-		printf("\nCan't divide from Zero!");
-	}else{
-		printf("\nResult : %d", a/(float)b);
+	if ( b == 0 ) {
+		printf ( "\nCan't divide from Zero!" ) ;
+	} else {
+		printf ( "\nResult : %d" , a / (float) b ) ;
 	}
 
 }
