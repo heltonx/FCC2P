@@ -3,8 +3,8 @@
 //CALCULADORA, TIRADA DE https://www.youtube.com/watch?v=ABDPgCf8-OU&list=WL&index=1&t=1s&ab_channel=tutor_SL
 // C PURO
 
-void add(int a, int b){
-	printf("\nResult : %d", a+b);
+void add ( int a , int b ) {
+	printf ( "\nResult : %d" ,  a + b );
 }
 
 void substract(int a, int b){
