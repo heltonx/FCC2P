@@ -1,4 +1,4 @@
-//Franco Francisco e Chicão II (pseudo-frankstein), o Programa
+//Franco Francisco e ChicÃ£o II (pseudo-frankstein), o Programa
 //this programa has saveral funcions. A little legend with three heads. Probably I'm mixing C and C++
 
 #include <iostream>
@@ -43,13 +43,10 @@ int otroscopio(){
 	printf("a pessoa tem a face %s",pessoa.face);
 }
 
-
-
-
 int bubblesort () { //tks professor @aied
 	
 	/*
-"Compreendi também que o amor de Nosso Senhor se manifesta tanto na alma mais simples, que não coloca nenhuma resistência a sua graça, quanto na alma mais sublime. É próprio do amor abaixar-se. Se todas as almas se parecessem às dos santos doutores que iluminaram a Igreja com a luz de sua doutrina, parece que Deus não teria que se abaixar bastante para vir a seus corações. Mas criou a criança, que nada sabe e só balbucia fracos gemidos, criou o pobre selvagem, que só tem a lei natural para guiá-lo. E também a seus corações ele se abaixa! [...] Assim se abaixando, Deus mostra sua grandeza infinita."
+"Compreendi tambÃ©m que o amor de Nosso Senhor se manifesta tanto na alma mais simples, que nÃ£o coloca nenhuma resistÃªncia a sua graÃ§a, quanto na alma mais sublime. Ã‰ prÃ³prio do amor abaixar-se. Se todas as almas se parecessem Ã s dos santos doutores que iluminaram a Igreja com a luz de sua doutrina, parece que Deus nÃ£o teria que se abaixar bastante para vir a seus coraÃ§Ãµes. Mas criou a crianÃ§a, que nada sabe e sÃ³ balbucia fracos gemidos, criou o pobre selvagem, que sÃ³ tem a lei natural para guiÃ¡-lo. E tambÃ©m a seus coraÃ§Ãµes ele se abaixa! [...] Assim se abaixando, Deus mostra sua grandeza infinita."
 */
 	
 	int vetor_buffer [ 5 ] = { 100 , 9, 200 , 2 , 1 } ; //por enquanto, chumbado
@@ -70,7 +67,6 @@ int bubblesort () { //tks professor @aied
 	}
 	
 	return 0 ;
-	
 }
 
 
