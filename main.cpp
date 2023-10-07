@@ -93,7 +93,7 @@ int pointers( ) {
 	printf( "%d" , p );
 }
 
-int main(){
+int main ( ) {
 	
 	int choice;
 
