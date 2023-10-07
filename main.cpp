@@ -12,7 +12,7 @@ int showMemory ( ) { //This first funciton intends to show the memory addres of 
 	
 int v; //variavel de escopo local
 
-	printf("digite a variavel: ");
+	printf ( "digite a variavel: " ) ;
 	scanf("%d",&v);
 	cout << "valor da variavel: ";
 	printf("%d",v);
