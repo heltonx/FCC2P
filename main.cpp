@@ -44,7 +44,6 @@ int otroscopio(){
 }
 
 int bubblesort () { //tks professor @aied
-	
 	/*
 "Compreendi também que o amor de Nosso Senhor se manifesta tanto na alma mais simples, que não coloca nenhuma resistência a sua graça, quanto na alma mais sublime. É próprio do amor abaixar-se. Se todas as almas se parecessem às dos santos doutores que iluminaram a Igreja com a luz de sua doutrina, parece que Deus não teria que se abaixar bastante para vir a seus corações. Mas criou a criança, que nada sabe e só balbucia fracos gemidos, criou o pobre selvagem, que só tem a lei natural para guiá-lo. E também a seus corações ele se abaixa! [...] Assim se abaixando, Deus mostra sua grandeza infinita."
 */
