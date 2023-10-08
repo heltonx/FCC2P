@@ -6,4 +6,4 @@ Instructions
 
 open a project with "dev c++" and compile the files
 
-Soon: how to compile with g++ in xubuntu
+Soon: how to compile with g++ in xubuntu 
