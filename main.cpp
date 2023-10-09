@@ -13,11 +13,11 @@ int showMemory ( ) { //This first funciton intends to show the memory addres of 
 int v; //variavel de escopo local
 
 	printf ( "digite a variavel: " ) ;
-	scanf("%d",&v);
-	cout << "valor da variavel: ";
-	printf("%d",v);
-	cout << "\nposicao da variavel na memoria: ";
-	printf("%d",&v);
+	scanf ( "%d" , &v ) ;
+	cout << "valor da variavel: " ;
+	print f( "%d" , v ) ;
+	cout << "\nposicao da variavel na memoria: " ;
+	printf ( "%d" , &v ) ;
 }
 
 int otroscopio(){
