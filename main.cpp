@@ -108,8 +108,7 @@ int main_fatorial ( ){
 	return 0;
 
 }
-//FIM BLOCO DO FATORIAL
-
+//ENDING OF FATORIAL BLOCK
 
 int main ( ) {
 	
