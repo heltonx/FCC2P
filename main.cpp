@@ -93,7 +93,7 @@ int pointers( ) {
 	printf( "%d" , p );
 }
 
-//INICIO BLOCO DO FATORIAL
+//BEGINIG OF FATORIAL BLOCK
 int fatorial ( int n ) {
 
 	if ( n == 1 || n == 0 )
