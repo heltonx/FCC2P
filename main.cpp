@@ -102,7 +102,7 @@ int fatorial ( int n ) {
 	
 }
 
-int main_fatorial ( ){
+int main_fatorial ( ) {
 
 	cout << " o fatorial de 4 é " << fatorial ( 5 ); //por ora, chumbado
 	return 0;
