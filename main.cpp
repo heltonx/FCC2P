@@ -1,4 +1,4 @@
-//Franco Francisco e Chicão II (pseudo-frankstein), o Programa
+//Franco Francisco e ChicÃ£o II (pseudo-frankstein), o Programa
 //this programa has saveral funcions. A little legend with three heads. Probably I'm mixing C and C++
 
 #include <iostream>
@@ -15,7 +15,7 @@ int v ; //variavel de escopo local
 	printf ( "digite a variavel: " ) ;
 	scanf ( "%d" , &v ) ;
 	cout << "valor da variavel: " ;
-	print f( "%d" , v ) ;
+	printf( "%d" , v ) ;
 	cout << "\nposicao da variavel na memoria: " ;
 	printf ( "%d" , &v ) ;
 }
@@ -45,7 +45,7 @@ int otroscopio(){
 
 int bubblesort () { //tks professor @aied
 	/*
-"Compreendi também que o amor de Nosso Senhor se manifesta tanto na alma mais simples, que não coloca nenhuma resistência a sua graça, quanto na alma mais sublime. É próprio do amor abaixar-se. Se todas as almas se parecessem às dos santos doutores que iluminaram a Igreja com a luz de sua doutrina, parece que Deus não teria que se abaixar bastante para vir a seus corações. Mas criou a criança, que nada sabe e só balbucia fracos gemidos, criou o pobre selvagem, que só tem a lei natural para guiá-lo. E também a seus corações ele se abaixa! [...] Assim se abaixando, Deus mostra sua grandeza infinita."
+"Compreendi tambÃ©m que o amor de Nosso Senhor se manifesta tanto na alma mais simples, que nÃ£o coloca nenhuma resistÃªncia a sua graÃ§a, quanto na alma mais sublime. Ã‰ prÃ³prio do amor abaixar-se. Se todas as almas se parecessem Ã s dos santos doutores que iluminaram a Igreja com a luz de sua doutrina, parece que Deus nÃ£o teria que se abaixar bastante para vir a seus coraÃ§Ãµes. Mas criou a crianÃ§a, que nada sabe e sÃ³ balbucia fracos gemidos, criou o pobre selvagem, que sÃ³ tem a lei natural para guiÃ¡-lo. E tambÃ©m a seus coraÃ§Ãµes ele se abaixa! [...] Assim se abaixando, Deus mostra sua grandeza infinita."
 */
 	
 	int vetor_buffer [ 5 ] = { 100 , 9, 200 , 2 , 1 } ; //por enquanto, chumbado
@@ -93,6 +93,24 @@ int pointers( ) {
 	printf( "%d" , p );
 }
 
+//INICIO BLOCO DO FATORIAL
+int fatorial ( int n ) {
+
+	if ( n == 1 || n == 0 )
+		return 1;
+	return n * fatorial ( n - 1 );
+	
+}
+
+int main_fatorial ( ){
+
+	cout << " o fatorial de 4 é " << fatorial ( 5 ); //por ora, chumbado
+	return 0;
+
+}
+//FIM BLOCO DO FATORIAL
+
+
 int main ( ) {
 	
 	int choice;
@@ -102,6 +120,7 @@ int main ( ) {
 	printf ( " Calculator - option 3\n" ) ;
 	printf ( " Bubble sort - option 4\n" ) ;
 	printf ( " Pointers - option 5\n" ) ;
+	printf ( " Fatorial - option 6\n" ) ;	
 	printf ( "Enter your choice: " ) ;
 	
 	scanf ( "%d" , &choice ) ;
@@ -112,6 +131,7 @@ int main ( ) {
 	case 3 : calculator ( ) ; break ;
 	case 4 : bubblesort ( ) ; break ;
 	case 5 : pointers ( ) ; break ;
+	case 6 : main_fatorial ( ) ; break ;
 	default : printf ( "Invalid input \n" ) ;
 	}
 	
