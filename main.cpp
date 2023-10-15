@@ -80,14 +80,14 @@ int pointers( ) {
 	cout << "\n\nLogo apos, foi chumbado um valor para x, e o ponteiro, \nsem o asterisco, recebe o endereco de x, representado por e comercial ( &x ).";
 	
 	cout << "\n\nPonteiro ( *p ) tem o valor : ";
-	printf( "%d" , * p );
-	printf( "\n" );
+	printf ( "%d" , * p );
+	printf ( "\n" );
 	
 	cout << "\n\nVariavel ( x ) tem o valor : ";
-	printf( "%d" , x );
+	printf ( "%d" , x );
 	
 	cout << "\n\nPonteiro ( p ) aponta para o endereco : ";
-	printf( "%d" , p );
+	printf ( "%d" , p );
 	
 	cout << "\n\nO endereco de ( x ) eh : ";
 	printf( "%d" , p );
