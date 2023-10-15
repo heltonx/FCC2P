@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 #include "calculator.h"
 
 using namespace std ;
