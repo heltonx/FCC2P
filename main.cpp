@@ -89,8 +89,8 @@ int pointers( ) {
 	cout << "\n\nPonteiro ( p ) aponta para o endereco : ";
 	printf ( "%d" , p );
 	
-	cout << "\n\nO endereco de ( x ) eh : ";
-	printf( "%d" , p );
+	cout << "\n\nO endereco de ( x ) eh : " ;
+	printf ( "%d" , p ) ;
 }
 
 //BEGINIG OF FATORIAL BLOCK
