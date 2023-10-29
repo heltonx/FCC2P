@@ -24,7 +24,7 @@ int otroscopio ( ) {
 	
 	struct dados {
 		char face[10] ;
-		string body;
+		string body ;
 		string persona;
 		string style;
 	};
