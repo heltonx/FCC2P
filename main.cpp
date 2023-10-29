@@ -22,7 +22,7 @@ int v ; //variavel de escopo local
 
 int otroscopio ( ) {
 	
-	struct dados{
+	struct dados {
 		char face[10];
 		string body;
 		string persona;
