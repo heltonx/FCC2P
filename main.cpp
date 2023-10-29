@@ -20,7 +20,7 @@ int v ; //variavel de escopo local
 	printf ( "%d" , &v ) ;
 }
 
-int otroscopio(){
+int otroscopio ( ) {
 	
 	struct dados{
 		char face[10];
