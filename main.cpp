@@ -25,22 +25,22 @@ int otroscopio ( ) {
 	struct dados {
 		char face[10] ;
 		string body ;
-		string persona;
-		string style;
-	};
+		string persona ;
+		string style ;
+	} ;
 	
-	struct dados pessoa;
+	struct dados pessoa ;
 	
-	printf("type face: ");
-	scanf("%s",&pessoa.face);
-	printf("type body: ");
-	scanf("%s",&pessoa.body);
-	printf("type persona: ");
-	scanf("%s",&pessoa.persona);
-	printf("type clothing/style: ");
-	scanf("%s",&pessoa.style);
+	printf( "type face: ") ;
+	scanf ("%s" , &pessoa.face) ;
+	printf ("type body : ") ;
+	scanf ("%s", &pessoa.body) ;
+	printf ("type persona: ") ;
+	scanf ( "%s", &pessoa.persona ) ;
+	printf ( "type clothing/style: " ) ;
+	scanf ("%s", &pessoa.style ) ;
 	
-	printf("a pessoa tem a face %s",pessoa.face);
+	printf ( "a pessoa tem a face %s", pessoa.face) ;
 }
 
 int bubblesort () { //tks professor @aied
